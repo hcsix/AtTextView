@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     private Button parseBtn;
     private TextView showTv;
 
-    String str = "@jackson 你好!@疯狂的大狸子 @hc_lll how are you？ @你 @.sasass ";
+    String str = "@jackson 你好!@疯狂的大狸子 @hc_lll how are you？ @你 @哦11111  ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
