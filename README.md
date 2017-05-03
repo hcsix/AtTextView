@@ -161,7 +161,7 @@ PS:正则表达式必须根据需求给定的命名规则来定
 三、将 SpannableString 设置给 TextView
 
 	List<AtBean> atBeanList = getAtBeanList(str);
-        SpannableString spannableStr = getClickSpannableString(str, atBeanList);
-        showTv.setText(spannableStr);
-        //激活点击事件
-        showTv.setMovementMethod(LinkMovementMethod.getInstance());
+	SpannableString spannableStr = getClickSpannableString(str, atBeanList);
+	showTv.setText(spannableStr);
+	//激活点击事件
+	showTv.setMovementMethod(LinkMovementMethod.getInstance());
